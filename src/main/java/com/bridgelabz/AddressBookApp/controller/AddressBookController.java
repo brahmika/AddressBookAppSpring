@@ -21,6 +21,7 @@ import java.util.List;
 @RequestMapping("/addressbook")
 public class AddressBookController {
 
+    // Service injected via @Autowired
     @Autowired
     private IAddressBookService addressBookService;
 
